@@ -1,0 +1,25 @@
+# Instalção de Wildflys
+**https://linode.com/docs/development/java/java-development-wildfly-centos-7/
+*https://devops.profitbricks.com/tutorials/how-to-install-and-configure-wildfly-application-server-on-centos-7/
+*https://giovannireisnunes.wordpress.com/2015/08/21/instalando-wildfly-no-centos/
+
+# Script de instalação automatica
+*https://gist.github.com/sukharevd/6087988
+
+# OJDBC
+*https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/6.3/html/administration_and_configuration_guide/install_a_jdbc_driver_as_a_core_module1
+https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Web_Platform/5/html/Administration_And_Configuration_Guide/ch11s02.html
+*http://www.adam-bien.com/roller/abien/entry/installing_oracle_jdbc_driver_on
+
+# OJDBC XADATASOURECE
+https://access.redhat.com/documentation/en-us/jboss_enterprise_application_platform/6.2/html/administration_and_configuration_guide/example_oracle_xa_datsource1
+
+# Download Mysql JDBC
+https://www.mysql.com/products/connector/
+
+# Mysql JDBC
+http://www.semeru.com.br/blog/configurando-uma-conexao-mysql-no-jboss-com-mysql-connector-jdbc-driver/
+
+# JBOSS-CLI
+https://docs.jboss.org/author/display/WFLY/Command+Line+Interface
+
