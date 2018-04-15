@@ -293,7 +293,7 @@ utilizado(192.168.56.102).
   		</dependencies>
 	</module>
 
-5- Adicionar a seguinte linha no "standalone.xml" dentro da tag "<drivers>".
+5- Adicionar a seguinte linha no "standalone.xml" dentro da tag "drivers".
 
 	<driver name="mysql" module="com.mysql">
  		<driver-class>com.mysql.jdbc.jdbc2.optional.MysqlDataSource</driver-class>
@@ -317,7 +317,7 @@ Para adicionar um XA-Datasources.
 	./wildfly/bin/jboss-cli.sh --connect /subsystem=datasources/jdbc-driver=mysql:add'(driver-name=mysql,driver-module-name=com.mysql,driver-xa-datasource-class-name=com.mysql.jdbc.jdbc2.optional.MysqlXADataSource)'
 
 
-9- Adicione no arquivo "standalone.xml" uma definição de fonte de dados dentro da tag "<datasources>".
+9- Adicione no arquivo "standalone.xml" uma definição de fonte de dados dentro da tag "datasources".
 
 
 	<datasource jndi-name="java:jboss/datasources/java" pool-name="java" enabled="true" use-java-context="true" use-ccm="true">
@@ -355,7 +355,7 @@ Para adicionar um XA-Datasources.
   		</dependencies>
 	</module>
 
-5- Adicionar a seguinte linha no "standalone.xml" dentro da tag "<drivers>".
+5- Adicionar a seguinte linha no "standalone.xml" dentro da tag "drivers".
 
 	<driver name="oracle" module="com.oracle">
  		<driver-class>oracle.jdbc.driver.OracleDriver</driver-class>
@@ -377,7 +377,7 @@ Para adicionar um XA-Datasources.
 
 	./wildfly/bin/jboss-cli.sh --connect /subsystem=datasources/jdbc-driver=oracle:add'(driver-name=oracle,driver-module-name=com.oracle,driver-xa-datasource-class-name=oracle.jdbc.xa.client.OracleXADataSource)'
 
-9- Adicione no arquivo "standalone.xml" uma definição de fonte de dados dentro da tag "<datasources>".
+9- Adicione no arquivo "standalone.xml" uma definição de fonte de dados dentro da tag "datasources".
 
 
 	<datasource jndi-name="java:/[NAME]" pool-name="OracleDS" enabled="true">
